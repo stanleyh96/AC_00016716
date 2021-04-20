@@ -16,7 +16,7 @@
         mov      BX, [201h]
         mov      CX,[BX]
         ;INDIRECTO BASE+INDICE
-        mov      SI,[5h]
+        mov      SI,[202h]
         mov      DX,[BX+SI]
 
         int      20h
